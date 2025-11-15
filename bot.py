@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ----- Переменные окружения -----
-TELEGRAM_TOKEN = os.getenv("BOT_TOKEN")
+TELEGRAM_TOKEN = os.getenv("8316900848:AAFWYgTyJGoQsYdhJhe6S259OIi2uUn4rSw")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 if not TELEGRAM_TOKEN:
@@ -225,4 +225,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
